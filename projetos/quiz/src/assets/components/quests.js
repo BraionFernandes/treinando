@@ -1,4 +1,6 @@
-const quests=[
+import { useState } from "react";
+
+const Quests=()=>[
     {
         id: 0,
         nome: 'Qual é o nome completo do integrante RM?',
@@ -448,5 +450,7 @@ const quests=[
         alt3: 'V',
         alt4: 'RM',
         correct: 'V',
-    }
+    },
 ]
+
+export {Quests}
